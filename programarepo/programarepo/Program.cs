@@ -10,6 +10,10 @@ namespace programarepo
     {
         static void Main(string[] args)
         {
+            Class1 c1 = new Class1();
+            Class c2 = new Class2();
+            c1.Saludo();
+            Console.WriteLine(c2.Suma(1, 3));
         }
     }
 }
